@@ -12,12 +12,12 @@
     </nav>
 
     <div class="container">
-        {{-- Flash success message --}}
+        
         @if(session('success'))
             <div class="alert alert-success">{{ session('success') }}</div>
         @endif
 
-        {{-- Validation errors --}}
+       
         @if($errors->any())
             <div class="alert alert-error">
                 <ul>
