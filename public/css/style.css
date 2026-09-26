@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* NAVBAR */
+
 .navbar {
     background: #0f172a;
     color: #fff;
@@ -32,7 +32,7 @@ body {
     gap: 10px;
 }
 
-/* MAIN CONTAINER */
+
 .container {
     max-width: 1100px;
     margin: 40px auto;
@@ -45,7 +45,7 @@ h1 {
     color: #0f172a;
 }
 
-/* MY TASKS HEADER */
+
 .tasks-header {
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ h1 {
     margin: 0;
 }
 
-/* BUTTONS */
+
 .btn {
     display: inline-block;
     padding: 10px 18px;
@@ -125,7 +125,7 @@ h1 {
     background: #d1fae5;
 }
 
-/* ALERTS */
+
 .alert {
     padding: 14px 18px;
     border-radius: 10px;
@@ -145,7 +145,7 @@ h1 {
     border: 1px solid #fecaca;
 }
 
-/* TASK TABLE */
+
 .task-table {
     width: 100%;
     background: #fff;
@@ -188,7 +188,7 @@ tr.completed td:first-child {
     color: #1e293b;
 }
 
-/* ACTION BUTTONS */
+
 .actions {
     display: flex;
     gap: 7px;
@@ -199,7 +199,7 @@ tr.completed td:first-child {
     display: inline;
 }
 
-/* STATUS BADGES */
+
 .badge {
     padding: 5px 11px;
     border-radius: 20px;
@@ -218,7 +218,7 @@ tr.completed td:first-child {
     color: #166534;
 }
 
-/* FORM */
+
 .task-form {
     background: #fff;
     padding: 32px;
@@ -268,7 +268,7 @@ tr.completed td:first-child {
     margin-top: 22px;
 }
 
-/* EMPTY STATE */
+
 .empty {
     background: #fff;
     padding: 55px 24px;
@@ -278,7 +278,7 @@ tr.completed td:first-child {
     border: 1px dashed #cbd5e1;
 }
 
-/* ADD TASK BUTTON */
+
 .navbar .btn-primary {
     background: #2563eb;
     padding: 10px 20px;
@@ -288,7 +288,7 @@ tr.completed td:first-child {
     background: #3b82f6;
 }
 
-/* MOBILE */
+
 @media (max-width: 700px) {
     .navbar {
         padding: 15px 20px;
@@ -303,7 +303,7 @@ tr.completed td:first-child {
         font-size: 1.5rem;
     }
 
-    /* My Tasks header on mobile */
+    
     .tasks-header {
         flex-direction: column;
         align-items: flex-start;
