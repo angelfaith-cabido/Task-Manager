@@ -9,7 +9,6 @@
 <body>
     <nav class="navbar">
         <a href="{{ route('tasks.index') }}" class="brand">📝 Task Manager</a>
-        <a href="{{ route('tasks.create') }}" class="btn btn-primary">+ Add Task</a>
     </nav>
 
     <div class="container">
