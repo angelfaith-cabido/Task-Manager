@@ -12,6 +12,7 @@ Features:
 - Edit Task
 - Delete Task
 - Update Status
+- Due Date
 
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/86db98b1-3610-4035-8694-477b1c59ed42" />
 
